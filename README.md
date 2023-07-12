@@ -18,6 +18,7 @@ I have built an API for a social network web application where users can share t
 - THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 ## GitHub
+https://github.com/yaneyalvarado/Social-Network-API
 
-
-## Walkthrough Video/Demo
+## Demo
+https://drive.google.com/file/d/18DOgLJakRTl_dj0Gyg2FOlxDDumMD9Pz/view?usp=sharing
