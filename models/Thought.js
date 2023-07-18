@@ -40,7 +40,7 @@ const thoughtSchema = new Schema(
       required: true,
       maxlength: 280,
     },
-    username: {
+    email: {
       type: String,
       required: true,
     },

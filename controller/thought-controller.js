@@ -28,7 +28,7 @@ const thoughtController = {
     Thought.create(req.body)
       .then(({ _id }) => {
         return User.findOneAndUpdate(
-          { _id: req.body.userId },
+          { email: req.body.email },
           { $push: { thoughts: _id } },
           { new: true }
         );
@@ -36,9 +36,9 @@ const thoughtController = {
       .then((thought) =>
         !thought
           ? res.status(404).json({ message: "No user find with this ID" })
-          : res.jason(thought)
+          : res.json(thought)
       )
-      .catch((err) => res.status(500).json(err));
+      .catch((err) => console.log(err));
   },
   // remove a thought
   removeThought({ params }, res) {
