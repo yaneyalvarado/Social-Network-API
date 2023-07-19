@@ -7,6 +7,7 @@ I have built an API for a social network web application where users can share t
 - SO THAT my website can handle large amounts of unstructured data
 
 ## Acceptance Criteria
+```
 - GIVEN a social network API
 - WHEN I enter the command to invoke the application
 - THEN my server is started and the Mongoose models are synced to the MongoDB database
@@ -16,6 +17,7 @@ I have built an API for a social network web application where users can share t
 - THEN I am able to successfully create, update, and delete users and thoughts in my database
 - WHEN I test API POST and DELETE routes in Insomnia
 - THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+```
 
 ## GitHub
 https://github.com/yaneyalvarado/Social-Network-API
